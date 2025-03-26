@@ -17,4 +17,20 @@ go get github.com/LaciaRD000/captchalygo
 
 ## Usage
 ```go
+package main
+
+import (
+	"fmt"
+	"github.com/LaciaRD000/captchalygo"
+)
+
+func main() {
+	s := captchalygo.New("YOUR_CAPTCHA_SECRET")
+	v, err := s.SolveHCaptcha("YOUR_URL", "YOUR_SITEKEY")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(v)
+}
 ```
