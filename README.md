@@ -12,7 +12,7 @@ captchaly go library
 ## Installation
 You don't need this source code unless you want to modify the package. If you just want to use the package, just run:
 ```
-go get github.com/LaciaRD000/captchalygo
+go get github.com/LaciaRD000/captchalygo@latest
 ```
 
 ## Usage
